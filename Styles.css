@@ -1,0 +1,165 @@
+/* imported fonts */
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fira+Sans&family=Frank+Ruhl+Libre:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Fira+Sans:wght@400;500&family=Frank+Ruhl+Libre:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: solid black 1px; */
+}
+
+/* ------------------- body grid template------------- */
+
+body{
+    background-color: hsl(0,0%,92%)rgb(235,235,235);
+    max-width: 62.5rem;
+    height: auto;
+    margin: 0 auto;
+    /* display: grid; */
+    /* grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr); */
+    display: flex;
+    flex-direction: column;
+}
+/* --------------------------header grid/flex--------------------- */
+
+header{
+    /* grid-column: 1 / 7;
+    grid-row: 1 / 4; */
+    height: 34rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.leftbox{ 
+    width: 50%;
+    height: 100%;
+    background-color: #C7DDEA;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    position: relative;
+    padding: 5rem;
+}
+
+/* ---------------left part of header----------- */
+.leftbox h1{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 45px;
+    width: 19.625rem;
+    font-weight: 900;
+    line-height: 100%;
+}
+.leftbox p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    width: 16.75rem;
+    color: rgba(0, 0, 0, 0.6);
+    padding-top: 1rem;
+}
+
+.leftbox p span{
+    color: rgba(255, 255, 255, 1);
+}
+
+.leftbox button{
+    margin-top: 3rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    border-radius: 100px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    align-self: flex-start;
+    border: none;
+}
+
+.leftbox img{
+    width: 17.438;
+    height: 17.875rem;
+    margin-top: 11.125rem;
+    margin-left: 6.25rem;
+    position: absolute;
+}
+/* -------------------------right part of header-------------------- */
+
+.rightboxone{ 
+    width: 50%;
+    height: 50%;
+    background-color: #F17949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightboxone p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.rightboxone h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.rightboxtwo{ 
+    width: 50%;
+    height: 50%;
+    background-color: #FFB939;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightboxtwo p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.rightboxtwo h2{
+    font-family: 'Frank Ruhl Libre', serif;
+    font-weight: 900;
+    font-size: 32px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+
+/* ----------------nav grid-------------------- */
+
+.navflex{
+    grid-area: 4/1/5/7;
+    height: 5rem;
+    background-color: hsl(0,0%,92%)rgb(235,235,235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navflex h3{
+    margin: 4rem;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.5);
+}
+/* -----------------------main grid-------------------- */
+ 
+.maincontent{
+    /* grid-area: 5/1/9/7; */
+    background-color: brown;
+    height: 80.75rem;
+} 
+
+/* --------------------gridbox section------------- */
