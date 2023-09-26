@@ -154,6 +154,10 @@ header{
     font-weight: 600;
     color: rgba(0, 0, 0, 0.5);
 }
+
+.navflex h3:nth-child(1){
+    color: black;
+}
 /* -----------------------main grid-------------------- */
  
 .maincontent{
