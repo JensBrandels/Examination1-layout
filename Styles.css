@@ -19,6 +19,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 /* --------------------------header grid/flex--------------------- */
 
 header{
@@ -27,6 +28,8 @@ header{
     flex-direction: column;
     flex-wrap: wrap;
 }
+
+/* ---------------left part of header----------- */
 
 .leftbox{ 
     width: 50%;
@@ -39,7 +42,7 @@ header{
     padding: 5rem;
 }
 
-/* ---------------left part of header----------- */
+
 .leftbox h1{
     font-family: 'Frank Ruhl Libre', serif;
     font-size: 45px;
@@ -47,6 +50,7 @@ header{
     font-weight: 900;
     line-height: 100%;
 }
+
 .leftbox p{
     font-family: 'Fira Sans', sans-serif;
     font-size: 14px;
@@ -62,22 +66,26 @@ header{
 
 .leftbox button{
     margin-top: 3rem;
-    padding: 1rem 2.5rem 1rem 2.5rem;
+    padding: 0.5rem 2.4rem 0.5rem 2.4rem;
     border-radius: 100px;
     font-family: 'Fira Sans', sans-serif;
     font-size: 10px;
     font-weight: 700;
     align-self: flex-start;
     border: none;
+    flex-shrink: 0;
+}
+
+.imgpositioner{
+    display: flex;
+    flex-direction: row;
 }
 
 .leftbox img{
-    width: 17.438;
     height: 17.875rem;
-    margin-top: 11.125rem;
-    margin-left: 6.25rem;
-    position: absolute;
+    margin-top: 0.2rem;
 }
+
 /* -------------------------right part of header-------------------- */
 
 .rightboxone{ 
