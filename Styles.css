@@ -369,8 +369,137 @@ header{
     margin-top: -15rem;
 }
 
-/* --------------------box section------------- */
+/* --------------------infobox section------------- */
 
+.guideboxes{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-auto-rows: auto;
+    height: 42.5rem;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.boxtexts{
+    color: rgba(0, 0, 0, 0.70);
+    font-family: Fira Sans;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+    width: 16.0625rem;
+    height: 7.0625rem;
+    text-align: center;
+}
+
+.boxnumbers{
+    color: rgba(0, 0, 0, 0.40);
+    text-align: center;
+    font-family: Frank Ruhl Libre;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    padding: 1rem;
+    padding-bottom: 6.5rem;
+    margin-right: 16rem;
+}
+/* ----------------specific infoboxes--------------- */
+
+.boxone{
+    grid-column: auto/span 2;
+    grid-row: auto/span 2;
+    background: #C7DDEA;
+    justify-content: center;
+    align-items: center;
+    height: 21.25rem;
+}
+
+.boxone h2{
+    color: rgba(0, 0, 0, 0.80);
+    text-align: center;
+    font-family: Frank Ruhl Libre;
+    font-size: 2.8125rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 100%;
+    letter-spacing: -0.05625rem;
+}
+
+.boxone span{
+    margin-right: 0.5rem;
+}
+
+
+.boxtwo{
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background: #FFF;
+    height: 21.25rem;
+}
+.boxthree{
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background: #EBEBEB;
+    height: 21.25rem;
+}
+.boxfour{
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background: #FFF;
+    height: 21.25rem;
+}
+.boxfive{
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background: #F17949;
+    height: 21.25rem;
+}
+.boxsix{
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+    background: #FFF;
+    height: 21.25rem;
+}
 
 /* -------------------footer-------------------- */
 
+footer{
+    background: #A9A19E;
+    text-align: center;
+}
+
+footer figure{
+    position: relative;
+    height: 4.25rem;
+}
+
+.arrowup{
+    width: 2.5%;
+    /* position: absolute; */
+    margin-left: -0.8rem;
+}
+
+footer figure figcaption{
+    margin-top: -1rem;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: rgba(0, 0, 0, 0.70);
+    text-align: center;
+    font-family: Fira Sans;
+    font-size: 1.0625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.25rem;
+}
+
+.footfiller{
+    background: #777574;
+    height: 21.25rem;
+}
